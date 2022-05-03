@@ -21,4 +21,4 @@ class dbMidlleware:
 
 
 show_data = dbMidlleware()
-show_data.copy_db("person"," SELECT * FROM person")
+show_data.copy_db(""," SELECT * FROM ")
