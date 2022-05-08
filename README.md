@@ -15,6 +15,7 @@ self.engine2 = create_engine("") ->a engine do banco de dados que o sqlachemy va
 ### exemplos:
 
 show_data = dbMidlleware() -> chama as conexões criadas a cima.
+
 show_data.copy_db("tabela1"," SELECT * FROM tabela1") -> o primeiro argumento recebe o nome da tabela ser copiado, e o segundo o a query.
 
 ### References
